@@ -1,3 +1,6 @@
+/*A solução escrita para o problema é ligar o interruptor 1, esperar, desligar e ligar o 2, então ir checar as lâmpadas. A lâmpada acesa é a lâmpada do segundo interruptor, a apagada quente é a do primeiro e a apagada fria 
+é a do terceiro interruptor. Após isso é necessário apenas mais uma visita, chegando na sala com o interruptor não usado da outra vez aceso. A lâmpada ligada corresponde ao interruptor agora ligado.*/
+
 public class FoundLamps {
     public static void main(String[] args) {
         boolean[] lamps = new boolean[3]; // Inicialmente, todas as lâmpadas estão apagadas.
